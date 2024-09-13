@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qbox"
+version = "0.1.0"
+description = "A simple toolbox for quantum computing related operations"
+authors = ["Jelle Maas <typiqally@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
